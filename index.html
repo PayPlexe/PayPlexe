@@ -63,9 +63,9 @@ var Address = bitcore.Address;
 <pre>
 git clone git://github.com/PayPlexe/PayPlexeCore
 </pre>
-        <h2 id="browser">Browser version</h2>
-        <p>To download the Javascript-only browser version of bitcore,
-         select the submodules you want included:</p>
+        <h2 id="browser">Securité digital</h2>
+        <p>PayPlexe met tout en oeuvre pour rendre les dernières technologie accesible
+         à nos utilisateurs en matières de sécuritée :</p>
 
         <div class="row">
           <div class="col-md-1">
@@ -94,7 +94,7 @@ git clone git://github.com/PayPlexe/PayPlexeCore
         <p>Note: If you clone the github repository, you can also generate the bundle yourself.</p>
         <p><a href="test/index.html" target="_blank">Run all bitcore tests in your browser</a></p>
 
-        <h2>Live Demo</h2>
+        <h2>Executions d'une adresse sécurisée - Brain Adress</h2>
 
 <table border="0" width="100%">
 <tr><td width="50%">
@@ -138,7 +138,7 @@ var addr = new Address("1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa");
 console.log(addr.isValid());
 </pre>
 
-<p>Monitoring blocks and transactions. For this example you need a running bitcoind instance with RPC enabled.</p>
+<p>Suivi des blocs et des transactions. Pour cet exemple, vous avez besoin d'une instance en cours d'exécution avec RPC bitcoind permis.</p>
 
 <pre>
 var bitcore = require('bitcore');
@@ -181,7 +181,7 @@ peerman.on('connection', function(conn) {
 peerman.start();
 </pre>
 
-<p>Consuming a bitcoind RPC. For this example you need a running bitcoind instance with RPC enabled.</p>
+<p>Consommer une RPC bitcoind. Pour cet exemple, vous avez besoin d'une instance en cours d'exécution avec RPC bitcoind permis. </p>
 
 <pre>
 var bitcore = require('bitcore');
@@ -208,7 +208,7 @@ rpc.getBlock(hash, function(err, ret) {
 });
 </pre>
 
-<p>Creating and sending a Transaction through P2P.</p>
+<p>Crées et envoyés des transactions sécurisées à travers le réseau P2P.</p>
 
 <pre>
 var bitcore = require('bitcore');
@@ -279,7 +279,7 @@ peerman.on('connect', function() {
 peerman.start();
 </pre>
 
-<p>Parsing a script.</p>
+<p>Analyse d'un code.</p>
 
 <pre>
 var bitcore = require('bitcore');
