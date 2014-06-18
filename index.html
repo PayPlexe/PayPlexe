@@ -11,6 +11,18 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+  <?xml version="1.0" encoding="UTF-8" ?>
+
+<routes xmlns="http://symfony.com/schema/routing"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/routing http://symfony.com/schema/routing/routing-1.0.xsd">
+
+    <route id="secure" pattern="/secure">
+        <default key="_controller">AcmeDemoBundle:Main:secure</default>
+        <requirement key="_scheme">https</requirement>
+    </route>
+</routes>
+    
   </head>
   <body>
     <div class="wrapper">
